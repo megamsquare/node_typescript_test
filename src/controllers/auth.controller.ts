@@ -172,7 +172,7 @@ async function refreshToken(req: Request, res: Response) {
 }
 
 async function forgot_password(req: Request, res: Response) {
-
+    res.status(status_code.OK).json({data: "password changed fake data"})
 }
 
 const Auth_controller = {
