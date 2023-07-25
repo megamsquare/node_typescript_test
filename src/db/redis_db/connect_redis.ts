@@ -1,7 +1,7 @@
 import { createClient } from 'redis';
 
-const redisHost = process.env.REDIS_HOST || 'localhost';
-const redisPort = 6379;
+const redisHost = process.env.REDIS_HOST || '127.0.0.1';
+const redisPort = Number(process.env.REDIS_PORT) || 6379;
 
 const redis_client = createClient({
     legacyMode: true,
