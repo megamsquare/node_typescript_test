@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import validator from "validator";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import { IsRefresh } from "../dto/obj/auth.case";
+import { IsRefresh } from "../dto/obj/auth.dto";
 
 export interface IUser extends mongoose.Document {
     firstName: string;
