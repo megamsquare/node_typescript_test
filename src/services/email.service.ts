@@ -1,6 +1,6 @@
 import nodeMailer from 'nodemailer';
 import Mailgen from 'mailgen';
-import { SendEmail } from '../dto/obj/email.case';
+import { SendEmail } from '../dto/obj/email.dto';
 
 async function emailTransport() {
     const email = process.env.EMAIL || '';
