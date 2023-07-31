@@ -7,7 +7,7 @@ import { NewRole } from "../dto/obj/role.case";
 import { AccessTokenCheck, IsRefresh, LoginInfo } from "../dto/obj/auth.case";
 import { UserToken } from "../dto/obj/token.case";
 import { SendEmail } from "../dto/obj/email.case";
-import SuccessMsg from "../dto/success_handler";
+import SuccessMsg from "../dto/success_dto";
 
 async function signUp(req: Request, res: Response) {
     try {
