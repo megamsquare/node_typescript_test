@@ -5,7 +5,7 @@ import { NewUser } from "../dto/obj/user.case";
 import Services from "../services";
 import { NewRole } from "../dto/obj/role.dto";
 import { AccessTokenCheck, IsRefresh, LoginInfo } from "../dto/obj/auth.dto";
-import { UserToken } from "../dto/obj/token.case";
+import { UserToken } from "../dto/obj/token.dto";
 import { SendEmail } from "../dto/obj/email.dto";
 import SuccessMsg from "../dto/success_dto";
 

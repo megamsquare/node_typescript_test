@@ -2,7 +2,7 @@ import Model from "../models";
 import DB from "../db";
 import Err from "../dto/error_dto";
 import crypto from "crypto";
-import { UserToken } from "../dto/obj/token.case";
+import { UserToken } from "../dto/obj/token.dto";
 
 async function createToken(userInfo: UserToken) {
     try {
