@@ -1,5 +1,5 @@
 import Model from "../models";
-import { NewRole } from "../dto/obj/role.case";
+import { NewRole } from "../dto/obj/role.dto";
 
 async function createRole(role: NewRole) {
     try {

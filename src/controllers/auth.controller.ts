@@ -3,7 +3,7 @@ import status_code from "http-status";
 import Err from "../dto/error_dto";
 import { NewUser } from "../dto/obj/user.case";
 import Services from "../services";
-import { NewRole } from "../dto/obj/role.case";
+import { NewRole } from "../dto/obj/role.dto";
 import { AccessTokenCheck, IsRefresh, LoginInfo } from "../dto/obj/auth.dto";
 import { UserToken } from "../dto/obj/token.case";
 import { SendEmail } from "../dto/obj/email.dto";
