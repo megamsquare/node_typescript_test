@@ -1,5 +1,5 @@
 import Model from "../models";
-import Err from "../dto/error_handler";
+import Err from "../dto/error_dto";
 import jwt from "jsonwebtoken";
 import { LoginInfo, AccessTokenCheck, ForgottenPassword } from "../dto/obj/auth.case";
 

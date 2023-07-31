@@ -1,6 +1,6 @@
 import { NewUser, UpdatePassword, UpdateUser } from "../dto/obj/user.case";
 import Model from "../models";
-import Err from "../dto/error_handler";
+import Err from "../dto/error_dto";
 import { IUser } from "../models/users.model";
 import { Types } from "mongoose";
 

@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import status_code from "http-status";
-import Err from "../dto/error_handler";
+import Err from "../dto/error_dto";
 import { NewUser } from "../dto/obj/user.case";
 import Services from "../services";
 import { NewRole } from "../dto/obj/role.case";

@@ -1,6 +1,6 @@
 import Model from "../models";
 import DB from "../db";
-import Err from "../dto/error_handler";
+import Err from "../dto/error_dto";
 import crypto from "crypto";
 import { UserToken } from "../dto/obj/token.case";
 
