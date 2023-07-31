@@ -1,9 +1,9 @@
 import { Response, NextFunction } from "express";
 import status_code from "http-status";
-import Err from "../use_cases/error_handler";
+import Err from "../dto/error_handler";
 import AuthService from "../services/auth.service";
-import { UserRequest } from "../use_cases/obj/user.case";
-import { AccessTokenCheck } from "../use_cases/obj/auth.case";
+import { UserRequest } from "../dto/obj/user.case";
+import { AccessTokenCheck } from "../dto/obj/auth.case";
 
 
 

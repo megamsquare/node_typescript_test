@@ -1,6 +1,6 @@
-import { NewUser, UpdatePassword, UpdateUser } from "../use_cases/obj/user.case";
+import { NewUser, UpdatePassword, UpdateUser } from "../dto/obj/user.case";
 import Model from "../models";
-import Err from "../use_cases/error_handler";
+import Err from "../dto/error_handler";
 import { IUser } from "../models/users.model";
 import { Types } from "mongoose";
 

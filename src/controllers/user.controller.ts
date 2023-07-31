@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import status_code from "http-status";
-import { NewUser, UpdateUser } from "../use_cases/obj/user.case";
+import { NewUser, UpdateUser } from "../dto/obj/user.case";
 import Services from "../services";
 
 async function createUser(req: Request, res: Response) {

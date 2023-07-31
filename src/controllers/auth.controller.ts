@@ -1,13 +1,13 @@
 import { Request, Response } from "express";
 import status_code from "http-status";
-import Err from "../use_cases/error_handler";
-import { NewUser } from "../use_cases/obj/user.case";
+import Err from "../dto/error_handler";
+import { NewUser } from "../dto/obj/user.case";
 import Services from "../services";
-import { NewRole } from "../use_cases/obj/role.case";
-import { AccessTokenCheck, IsRefresh, LoginInfo } from "../use_cases/obj/auth.case";
-import { UserToken } from "../use_cases/obj/token.case";
-import { SendEmail } from "../use_cases/obj/email.case";
-import SuccessMsg from "../use_cases/success_handler";
+import { NewRole } from "../dto/obj/role.case";
+import { AccessTokenCheck, IsRefresh, LoginInfo } from "../dto/obj/auth.case";
+import { UserToken } from "../dto/obj/token.case";
+import { SendEmail } from "../dto/obj/email.case";
+import SuccessMsg from "../dto/success_handler";
 
 async function signUp(req: Request, res: Response) {
     try {
