@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import status_code from "http-status";
 import Err from "../dto/error_dto";
-import { NewUser } from "../dto/obj/user.case";
+import { NewUser } from "../dto/obj/user.dto";
 import Services from "../services";
 import { NewRole } from "../dto/obj/role.dto";
 import { AccessTokenCheck, IsRefresh, LoginInfo } from "../dto/obj/auth.dto";

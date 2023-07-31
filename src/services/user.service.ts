@@ -1,4 +1,4 @@
-import { NewUser, UpdatePassword, UpdateUser } from "../dto/obj/user.case";
+import { NewUser, UpdatePassword, UpdateUser } from "../dto/obj/user.dto";
 import Model from "../models";
 import Err from "../dto/error_dto";
 import { IUser } from "../models/users.model";
