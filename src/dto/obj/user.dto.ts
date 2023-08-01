@@ -45,3 +45,19 @@ export const validateNewUser: ValidationChain[] = [
     .isLength({ min: 1 })
     .withMessage("password is required"),
 ];
+
+export const validateUpdateUser: ValidationChain[] = [
+  body("firstName")
+    .trim()
+    .isLength({ min: 1 })
+    .withMessage("first name is required"),
+  body("lastName")
+    .trim()
+    .isLength({ min: 1 })
+    .withMessage("last name is required"),
+  body("email").trim().isEmail().withMessage("email is required"),
+  body("username")
+    .trim()
+    .isLength({ min: 1 })
+    .withMessage("username is required"),
+];
