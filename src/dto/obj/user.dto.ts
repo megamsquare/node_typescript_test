@@ -61,3 +61,15 @@ export const validateUpdateUser: ValidationChain[] = [
     .isLength({ min: 1 })
     .withMessage("username is required"),
 ];
+
+export const validateForgottenPassword: ValidationChain[] = [
+  body("password")
+    .trim()
+    .isLength({ min: 1 })
+    .withMessage("password is required"),
+  body("confirmPassword")
+    .trim()
+    .isLength({ min: 1 })
+    .withMessage("confirm password password is required"),
+  body("email").trim().isEmail().withMessage("email is required"),
+];
