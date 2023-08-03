@@ -22,7 +22,7 @@ export interface ForgottenPassword {
   newPassword: string;
 }
 
-export const validateSignUp: ValidationChain[] = [
+export const validateSignIn: ValidationChain[] = [
   body("usernameOrEmail")
     .trim()
     .isLength({ min: 1 })
